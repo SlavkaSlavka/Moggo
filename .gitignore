@@ -1,6 +1,1 @@
-.idea
-node_modules
-
-.sass-cache
-yarn.lock
-
+/.idea/
