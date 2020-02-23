@@ -27,4 +27,9 @@ a {
   margin-left: 30px;
 }
 
+.user-navigation li:hover {
+  color: #fce38a;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles.css.map */
