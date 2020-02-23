@@ -23,4 +23,8 @@ a {
   align-items: center;
 }
 
+.user-navigation li {
+  margin-left: 30px;
+}
+
 /*# sourceMappingURL=styles.css.map */
