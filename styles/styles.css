@@ -32,4 +32,12 @@ a {
   text-decoration: underline;
 }
 
+.search {
+  position: relative;
+}
+
+form {
+  position: absolute;
+}
+
 /*# sourceMappingURL=styles.css.map */

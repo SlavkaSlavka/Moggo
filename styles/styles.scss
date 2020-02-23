@@ -28,4 +28,12 @@ a {
     color: #fce38a;
     text-decoration: underline;
   }
+  .search {
+    position: relative;
+  }
+form {
+    position: absolute;
+    top: calc(100%+10px) ;
+    right: 0;
+  }
 
