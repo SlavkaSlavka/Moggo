@@ -1,6 +1,7 @@
 @import "variables";
 header {
-  background-image: url("//img/headback.png");
+  background: url("/img/headback.png") no-repeat center;
+  background-size: 100% 100%;
 }
 a {
   text-decoration: none;
