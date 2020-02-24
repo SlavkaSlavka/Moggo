@@ -64,11 +64,13 @@ text-align: center;
 }
 
 .info {
-background-color: transparent;
+  text-align: center;
+  background-color: transparent;
   font-family: 'Montserrat' , Arial, sans-serif ;
   font-weight: bold;
   font-size: 14px;
   color: white;
-  border: 1px solid white;
-  text-align: center;
+  border: 2px solid white;
+  margin-left: 45%;
+  margin-right: 0;
 }
