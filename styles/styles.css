@@ -70,4 +70,14 @@ li:hover form {
   font-weight: bold;
 }
 
+.info {
+  background-color: transparent;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
