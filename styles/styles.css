@@ -130,4 +130,10 @@ img {
   box-shadow: 6px 6px #95e1d3;
 }
 
+.fa-users {
+  position: relative;
+  left: 40%;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
