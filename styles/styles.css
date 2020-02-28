@@ -1,133 +1,112 @@
 header {
   background: url("../img/headback.png") no-repeat center;
   background-size: 100% 100%;
-  color: white;
-}
+  color: white; }
 
 a {
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .main-navigation {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-}
+  align-items: center; }
 
 .user-navigation {
   font-family: Myriad Pro, Arial, sans-serif;
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  align-items: center;
-}
+  align-items: center; }
 
 .user-navigation li {
-  margin-left: 30px;
-}
+  margin-left: 30px; }
 
 .user-navigation li:hover {
   color: #fce38a;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .search {
-  position: relative;
-}
+  position: relative; }
 
 form {
   position: absolute;
   top: calc(100% + 15px);
   right: 0;
-  display: none;
-}
+  display: none; }
 
 li:hover form {
-  display: block;
-}
+  display: block; }
 
 .logo {
-  font-family: Myriad Pro, Arial, sans-serif;
-}
+  font-family: Myriad Pro, Arial, sans-serif; }
 
 .logo:hover a {
   color: #fce38a;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .main-heading {
   font-family: Kaushan Script, Arial, sans-serif;
   text-align: center;
   font-size: 72px;
-  font-style: italic;
-}
+  font-style: italic; }
 
 .main-heading-help {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-size: 150px;
   font-style: normal;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .info {
   text-align: center;
   background-color: transparent;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   color: white;
   border: 2px solid white;
   margin-left: 45%;
   margin-right: 0;
-  margin-bottom: 230px;
-}
+  margin-bottom: 230px; }
 
 /* main */
 h2 {
   font-family: Kaushan Script, Arial, sans-serif;
   font-size: 24px;
   text-align: center;
-  margin-top: 90px;
-}
+  margin-top: 90px; }
 
 .help-story {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   margin-bottom: 90px;
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 .story-text {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 15px;
   text-align: center;
   color: #999999;
-  margin-bottom: 75px;
-}
+  margin-bottom: 75px; }
 
 .photo-story {
   position: relative;
-  display: flex;
-}
+  display: flex; }
 
 .help-photo-story {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-size: 18px;
   position: absolute;
   color: white;
   top: 50%;
   left: 11%;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 img {
-  margin: 15px;
-}
+  margin: 15px; }
 
 .shadow {
   position: relative;
   top: -6px;
-  box-shadow: 6px 6px #95e1d3;
-}
+  box-shadow: 6px 6px #95e1d3; }
 
 /*# sourceMappingURL=styles.css.map */
