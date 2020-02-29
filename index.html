@@ -17,46 +17,50 @@
 <script type="text/javascript" src="/js/app.js"></script>
 <header>
     <nav class="main-navigation">
-        <div class="logo"><a href="#">MoGo</a></div>
+        <div class="main-navigation__logo"><a class="main-navigation__link" href="#">MoGo</a></div>
         <ul class="user-navigation">
-            <a href="#"> <li>ABOUT</li></a>
-            <a href="#"> <li>SERVICE</li></a>
-            <a href="#"> <li>WORK</li></a>
-            <a href="#"> <li>BLOG</li></a>
-            <a href="#"> <li>CONTACT</li></a>
-       <li class="cart">
-           <a class="help-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#"> <li class="user-navigation__item">ABOUT</li></a>
+            <a href="#"> <li class="user-navigation__item">SERVICE</li></a>
+            <a href="#"> <li class="user-navigation__item">WORK</li></a>
+            <a href="#"> <li class="user-navigation__item">BLOG</li></a>
+            <a href="#"> <li class="user-navigation__item">CONTACT</li></a>
+       <li class="user-navigation__item_cart">
+           <a class="user-navigation__link_cart" href="#"><i class="fa fa-shopping-cart"></i></a>
        </li>
-        <li class="search">
-            <a class="hekp-search" href="#"> <i class="fa fa-search" aria-hidden="true"></i></a>
-            <form class="hidden">
-        <input type="search">
+        <li class="user-navigation__item_search">
+            <a class="user-navigation__link_search" href="#"> <i class="fa fa-search" aria-hidden="true"></i></a>
+            <form class="user-navigation__form_search">
+        <input class="user-navigation__input_search" type="search">
             </form>
         </li>
         </ul>
     </nav>
-    <h1 class="main-heading">Creative Template<br><span class="main-heading-help">WELCOME TO MOGO</span></h1>
-    <button class="info">Learn More</button>
+    <h1 class="main-heading">Creative Template<br><span class="main-heading__span">WELCOME TO MOGO</span></h1>
+    <button class="main-heading__button">Learn More</button>
 </header>
 <main>
-    <section>
-        <h2 class="story">What we do<br>
-            <span class="help-story">STORY ABOUT US</span>
+    <section class="story">
+        <h2 class="story__heading">What we do<br>
+            <span class="story__heading_help">STORY ABOUT US</span>
         </h2>
-        <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-    <figure class="photo-story">
-        <div class="container"><img class="shadow" src="img/main/story-photo-1.png" width="380px" height="250px"><p class="help-photo-story"><i class="fa fa-users" aria-hidden="true"></i><br>SUPER TEAM</p></div>
-        <img src="img/main/story-photo-2.jpg" width="380px" height="250px">
-        <img src="img/main/story-photo-3.jpg" width="380px" height="250px">
+        <p class="story__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <figure class="story__photo">
+        <img class="story__pohto_shadow" src="img/main/story-photo-1.png" width="380" height="250"><p class="story__photo_text"><i class="fa fa-users" aria-hidden="true"></i><br>SUPER TEAM</p></div>
+        <img src="img/main/story-photo-2.jpg" width="380" height="250">
+        <img src="img/main/story-photo-3.jpg" width="380" height="250">
     </figure>
-        <div class="achievements">
-            <p class="help-achievements">42<br>web design projects</p>
-            <p class="help-achievements">123<br>happy client</p>
-            <p class="help-achievements">15<br>award winner</p>
-            <p class="help-achievements">99<br>cup of cofee</p>
-            <p class="help-achievements">24<br>members</p>
+        <div class="story__achievements">
+            <p class="story__achievements_text">42<br><span class="story__achievements_help">web design projects</span></p>
+            <p class="story__achievements_text">123<br><span class="story__achievements_help">happy client</span></p>
+            <p class="story__achievements_text">15<br><span class="story__achievements_help">award winner</span></p>
+            <p class="story__achievements_text">99<br><span class="story__achievements_help">cup of cofee</span></p>
+            <p class="story__achievements_text">24<br><span class="story__achievements_help">members</span></p>
         </div>
     </section>
+    <section class="opportunities">
+        <h2 class="opportunities__heading">We work with<br>
+            <span class="opportunities__heading_help">amazing services</span>
+        </h2>
 
 </main>
 <footer>

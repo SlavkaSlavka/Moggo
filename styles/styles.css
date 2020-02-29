@@ -32,7 +32,7 @@ a {
   text-decoration: underline;
 }
 
-.search {
+.user-navigation__item_search {
   position: relative;
 }
 
@@ -47,11 +47,11 @@ li:hover form {
   display: block;
 }
 
-.logo {
+.main-navigation__logo {
   font-family: Myriad Pro, Arial, sans-serif;
 }
 
-.logo:hover a {
+.main-navigation__logo:hover a {
   color: #fce38a;
   text-decoration: underline;
 }
@@ -63,14 +63,14 @@ li:hover form {
   font-style: italic;
 }
 
-.main-heading-help {
+.main-heading__span {
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 150px;
   font-style: normal;
   font-weight: bold;
 }
 
-.info {
+.main-heading__button {
   text-align: center;
   background-color: transparent;
   font-family: "Montserrat", Arial, sans-serif;
@@ -84,20 +84,20 @@ li:hover form {
 }
 
 /* main */
-h2 {
+.story__heading {
   font-family: Kaushan Script, Arial, sans-serif;
   font-size: 24px;
   text-align: center;
   margin-top: 90px;
 }
 
-.help-story {
+.story__heading_help {
   font-family: "Montserrat", Arial, sans-serif;
   margin-bottom: 90px;
   font-size: 30px;
 }
 
-.story-text {
+.story__text {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 15px;
   text-align: center;
@@ -105,12 +105,12 @@ h2 {
   margin-bottom: 75px;
 }
 
-.photo-story {
+.story__photo {
   position: relative;
   display: flex;
 }
 
-.help-photo-story {
+.story__photo_text {
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 18px;
   position: absolute;
@@ -122,9 +122,10 @@ h2 {
 
 img {
   margin: 15px;
+  margin-bottom: 110px;
 }
 
-.shadow {
+.story__pohto_shadow {
   position: relative;
   top: -6px;
   box-shadow: 6px 6px #95e1d3;
@@ -134,6 +135,32 @@ img {
   position: relative;
   left: 40%;
   margin-bottom: 10px;
+}
+
+.story__achievements {
+  background-color: #95e1d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story__achievements_text {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  margin: 0;
+  min-width: 150px;
+}
+.story__achievements_help {
+  font-size: 14px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
