@@ -116,7 +116,7 @@ li:hover form {
   position: absolute;
   color: white;
   top: 50%;
-  left: 11%;
+  left: 140px;
   font-weight: bold;
 }
 
@@ -141,7 +141,6 @@ img {
   background-color: #95e1d3;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .story__achievements_text {
   font-family: "Montserrat", Arial, sans-serif;
@@ -150,10 +149,9 @@ img {
   font-size: 72px;
   font-weight: bold;
   border-left: 1px solid white;
-  border-right: 1px solid white;
+  border: 1px solid white;
   margin: 0;
-  padding: 85px 65px;
-  height: 100%;
+  padding: 2% 3%;
 }
 .story__achievements_help {
   font-size: 14px;
