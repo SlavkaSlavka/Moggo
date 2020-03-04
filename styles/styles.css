@@ -32,7 +32,7 @@ a {
   text-decoration: underline;
 }
 
-.user-navigation__item_search {
+.user-navigation__item-search {
   position: relative;
 }
 
@@ -47,11 +47,11 @@ li:hover form {
   display: block;
 }
 
-.main-navigation__logo {
+.logo {
   font-family: Myriad Pro, Arial, sans-serif;
 }
 
-.main-navigation__logo:hover a {
+.logo:hover a {
   color: #fce38a;
   text-decoration: underline;
 }
@@ -137,12 +137,12 @@ img {
   margin-bottom: 10px;
 }
 
-.story__achievements {
+.achievements {
   background-color: #95e1d3;
   display: flex;
   justify-content: center;
 }
-.story__achievements_text {
+.achievements_text {
   font-family: "Montserrat", Arial, sans-serif;
   color: white;
   text-align: center;
@@ -153,7 +153,7 @@ img {
   margin: 0;
   padding: 2% 3%;
 }
-.story__achievements_help {
+.achievements_help {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: normal;

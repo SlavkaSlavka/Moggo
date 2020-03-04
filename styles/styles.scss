@@ -28,7 +28,7 @@ a {
     color: #fce38a;
     text-decoration: underline;
   }
-  .user-navigation__item_search {
+  .user-navigation__item-search {
     position: relative;
   }
 
@@ -42,10 +42,10 @@ form {
 li:hover form {
   display: block;
 }
-.main-navigation__logo {
+.logo {
   font-family: Myriad Pro, Arial, sans-serif;
 }
-.main-navigation__logo:hover a {
+.logo:hover a {
  color: #fce38a;
   text-decoration: underline;
 }
@@ -121,8 +121,7 @@ img {
   left: 40%;
   margin-bottom: 10px;
 }
-.story {
-  &__achievements {
+.achievements {
     background-color: #95e1d3;
     display: flex;
     justify-content: center;
@@ -143,5 +142,5 @@ img {
       font-weight: normal;
     }
   }
-}
+
 
