@@ -27,7 +27,7 @@ a {
   margin-left: 30px;
 }
 
-.user-navigation li:hover {
+.user-navigation a:hover {
   color: #fce38a;
   text-decoration: underline;
 }
