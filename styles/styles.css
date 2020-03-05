@@ -89,6 +89,7 @@ li:hover form {
   font-size: 24px;
   text-align: center;
   margin-top: 90px;
+  position: relative;
 }
 
 .story__heading_help {
@@ -103,11 +104,13 @@ li:hover form {
   text-align: center;
   color: #999999;
   margin-bottom: 75px;
+  margin-top: 90px;
 }
 
 .story__photo {
   position: relative;
   display: flex;
+  justify-content: center;
 }
 
 .story__photo_text {
@@ -141,6 +144,7 @@ img {
   background-color: #95e1d3;
   display: flex;
   justify-content: center;
+  margin-bottom: 110px;
 }
 .achievements_text {
   font-family: "Montserrat", Arial, sans-serif;
@@ -157,6 +161,85 @@ img {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: normal;
+}
+
+.main-heading__button:hover {
+  color: black;
+  background-color: white;
+}
+
+/*red ine*/
+.story__heading_help:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: red;
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.opportunities__heading {
+  font-family: Kaushan Script, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+}
+.opportunities__heading_help {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.opportunities__heading_help:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: red;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.opportunities-list__icon {
+  font-family: Myriad Pro, Arial, sans-serif;
+  font-size: 35px;
+  color: #95e1d3;
+  margin-right: 25px;
+}
+
+h3 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.opportunities-list__text_help {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 15px;
+  color: #999999;
+  margin-bottom: 90px;
+}
+
+.opportunities-list__container {
+  display: flex;
+  max-width: 340px;
+}
+
+.opportunities-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
