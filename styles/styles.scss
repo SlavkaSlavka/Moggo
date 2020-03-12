@@ -101,13 +101,14 @@ text-align: center;
   display: flex;
   justify-content: center;
 }
+
 .story__photo_text {
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 18px;
   position: absolute;
   color: white;
-  top: 50%;
-  left: 140px;
+  top: 25%;
+  left: 10%;
   font-weight: bold;
 }
 img {
@@ -138,10 +139,10 @@ img {
       border-left: 1px solid white;
       border: 1px solid white;
       margin: 0;
-      padding: 2% 3%;
+      padding: 1% 2%;
     }
     &_help{
-      font-size: 14px;
+      font-size: 22%;
       text-transform: uppercase;
       font-weight: normal;
     }

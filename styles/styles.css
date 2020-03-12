@@ -118,8 +118,8 @@ li:hover form {
   font-size: 18px;
   position: absolute;
   color: white;
-  top: 50%;
-  left: 140px;
+  top: 25%;
+  left: 10%;
   font-weight: bold;
 }
 
@@ -155,10 +155,10 @@ img {
   border-left: 1px solid white;
   border: 1px solid white;
   margin: 0;
-  padding: 2% 3%;
+  padding: 1% 2%;
 }
 .achievements_help {
-  font-size: 14px;
+  font-size: 22%;
   text-transform: uppercase;
   font-weight: normal;
 }
