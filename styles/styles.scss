@@ -157,7 +157,7 @@ img {
   display: block;
   width: 60px;
   height: 5px;
-  background-color: red;
+  background-color: #f38181;
   position: relative;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -218,4 +218,56 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.device__heading {
+  font-family: Kaushan Script, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  margin-top: 260px;
+
+  &_help {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.device__heading_help:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: red;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.device {
+  position: absolute;
+  background: url("../img/main/background-device.png") no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  &__photo {
+    margin: 0;
+  }
+}
+.device__photo_big-device {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.device__photo_help{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: -8%;
+  left: 59%;
 }
