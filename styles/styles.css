@@ -297,4 +297,31 @@ h3 {
   left: 59%;
 }
 
+.service__heading {
+  font-family: Kaushan Script, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+}
+.service__heading_help {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.service__heading_help:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: red;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
 /*# sourceMappingURL=styles.css.map */
